@@ -4,14 +4,14 @@
 - [License](#license)
 - [Requirements](#requirements)
 - [Installation Instructions](#installation-instructions)
-- [More Information](#more information)
+- [More Information](#more-information)
 - [Copyright](#Copyright)
 
 ## Introduction
 
 It is the driver for the Kunpeng Acceleration Engine，which is a new technology within Hisilicon Kunpeng 920 processors，provides a hardware-enabled foundation for security, authentication, and compression. It significantly increases the performance across cloud, networking, big data, and storage applications and  platforms.  For more information,  please see the following location at:
 
-<https://github.com/kunpengcompute/kunpeng_kae>
+<https://github.com/kunpengcompute/KAE>
 
 ## License
 The Licensing of the files within this project is split as follows:
@@ -33,9 +33,8 @@ The user-space KAE driver is under the [APACHE LICENSE, VERSION 2.0](https://www
 
 Download the release version of Kunpeng Accelerator Engine Driver from:
 
-```
 <https://github.com/kunpengcompute/KAEdriver>
-```
+
 
 Note: To build the Kunpeng Accelerator Engine Driver, install the `kernel-devel` package first.
 
@@ -72,6 +71,7 @@ Check the accelerator driver has been loaded successfully by running the `ls -al
 For further assistance, contact Huawei Support at:
 
 <https://support.huawei.com>
+
 <https://www.huaweicloud.com/kunpeng/software/accelerator.html>
 
 ## Copyright
