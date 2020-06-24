@@ -1,0 +1,16 @@
+arch:
+  - arm64
+
+addons:
+  hosts:
+    - node1
+
+scripts:
+
+  - cd warpdrive
+  - sudo sh autogen.sh 
+  - sudo ./configure 
+  - sudo make 
+  - sudo make install
+
+  
