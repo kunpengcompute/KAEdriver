@@ -7,10 +7,7 @@ addons:
 
 scripts:
 
-  - wget https://github.com/mystery-nobody/KAEdriver/archive/master.zip --no-check-certificate
-  - unzip master.zip
-  - cd KAEdriver-master
-  - cd warpdriver
+  - cd KAEdriver/warpdriver
   - sudo sh autogen.sh 
   - sudo ./configure 
   - sudo make 
