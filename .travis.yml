@@ -1,0 +1,18 @@
+arch:
+  - arm64
+
+addons:
+  hosts:
+    - node1
+
+scripts:
+
+  - wget https://github.com/mystery-nobody/KAEdriver/archive/master.zip --no-check-certificate
+  - unzip master.zip
+  - cd KAEdriver-master
+  - cd warpdriver
+  - sudo sh autogen.sh 
+  - sudo ./configure 
+  - sudo make 
+  - sudo make install
+  
