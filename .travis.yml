@@ -7,7 +7,7 @@ addons:
 
 scripts:
 
-  - cd KAEdriver/warpdrive
+  - cd warpdrive
   - sudo sh autogen.sh 
   - sudo ./configure 
   - sudo make 
