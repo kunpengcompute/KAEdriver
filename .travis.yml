@@ -12,4 +12,6 @@ scripts:
   - sudo ./configure 
   - sudo make 
   - sudo make install
+  - cd ../kae_driver
+  - sudo make
   
