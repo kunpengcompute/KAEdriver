@@ -21,15 +21,15 @@ It is licensed under the [SPDX-GPL-2.0](https://opensource.org/licenses/GPL-2.0
 
 - CPU: Kunpeng 920 
 - Operating System: 
-  * CentOS 7.6  4.14.0-115.el7a.0.1.aarch64 version
-  * SuSE 15.1 4.12.14-195-default arch64 version
-  * NeoKylin 7.6 4.14.0-115.5.1.el7a.06.aarch64 version
-  * EulerOS 2.8 4.19.36-vhulk1907.1.0.h410.eulerosv2r8.aarch64 version
-  * BCLinux-R7-U6-Server-aarch64 version
-  * Kylin 4.0.2 (juniper) 4.15.0-70-generic version
-  * Kylin release 4.0.2 (SP2) 4.19.36-vhulk1907.1.0.h403.ky4.aarch64 version
-  * UniKylin Linux release 3(Core)  4.18.0-80.ky3.kb21.hw.aarch64 version
-  * Ubuntu 18.04.1 LTS 4.15.0-29-generic version
+  - CentOS 7.6  4.14.0-115.el7a.0.1.aarch64 version
+  - SuSE 15.1 4.12.14-195-default arch64 version
+  - NeoKylin 7.6 4.14.0-115.5.1.el7a.06.aarch64 version
+  - EulerOS 2.8 4.19.36-vhulk1907.1.0.h410.eulerosv2r8.aarch64 version
+  - BCLinux-R7-U6-Server-aarch64 version
+  - Kylin 4.0.2 (juniper) 4.15.0-70-generic version
+  - Kylin release 4.0.2 (SP2) 4.19.36-vhulk1907.1.0.h403.ky4.aarch64 version
+  - UniKylin Linux release 3(Core)  4.18.0-80.ky3.kb21.hw.aarch64 version
+  - Ubuntu 18.04.1 LTS 4.15.0-29-generic version
 
 ## Installation Instructions
 
