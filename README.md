@@ -4,12 +4,15 @@
 - [License](#license)
 - [Requirements](#requirements)
 - [Installation Instructions](#installation-instructions)
+- [Contribution guidelines](#contribution-guidelines)
 - [More Information](#more-information)
-- [Copyright](#Copyright)
+- [Copyright](#copyright)
 
 ## Introduction
 
-It is the driver for the Kunpeng Acceleration Engine，which is a new technology within Hisilicon Kunpeng 920 processors，provides a hardware-enabled foundation for security, authentication, and compression. It significantly increases the performance across cloud, networking, big data, and storage applications and  platforms.  For more information,  please see the following location at:
+It is the driver for the Kunpeng Acceleration Engine,  which is to build performance competitiveness of common software libraries on the Kunpeng platform.
+
+KAE driver is a new technology within Hisilicon Kunpeng 920 processors，provides a hardware-enabled foundation for security, authentication, and compression. It significantly increases the performance across cloud, networking, big data, and storage applications and  platforms.  For more information,  please see the following location at:
 
 <https://github.com/kunpengcompute/KAE>
 
@@ -71,6 +74,14 @@ make
 make install
 ```
 Check the accelerator driver has been loaded successfully by running the `ls -al /usr/local/lib` command. `libwd.so` should be in the list. 
+
+for more install guid and user guid, get information at:
+<https://www.huaweicloud.com/kunpeng/software/accelerator.html>
+
+## Contribution guidelines
+
+If you want to contribute to KAE driver, please use GitHub [issues](https://github.com/kunpengcompute/KAEdriver/issues/new) for tracking requests and bugs.
+
 ## More Information
 
 For further assistance, contact Huawei Support at:
