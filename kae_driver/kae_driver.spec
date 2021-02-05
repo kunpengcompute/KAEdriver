@@ -1,6 +1,6 @@
 Name:          kae_driver
 Summary:       Kunpeng Accelerator Engine Kernel Driver
-Version:       1.3.9
+Version:       1.3.10
 Release:       1%dist
 License:       GPL-2.0
 Source:        %{name}-%{version}.tar.gz
