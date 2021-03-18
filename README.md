@@ -82,6 +82,15 @@ for more install guid and user guid, get information at:
 
 If you want to contribute to KAE driver, please use GitHub [issues](https://github.com/kunpengcompute/KAEdriver/issues/new) for tracking requests and bugs.
 
+## Vulnerability Management
+Please refer to https://github.com/kunpengcompute/Kunpeng#security
+
+## Quality requirements
+Please refer to [Secure Coding Specifications](https://github.com/kunpengcompute/Kunpeng/blob/master/security/SecureCoding.md).
+
+## Secure design
+Please refer to [Secure Design](https://github.com/kunpengcompute/Kunpeng/blob/master/security/SecureDesign.md).
+
 ## More Information
 
 For further assistance, contact Huawei Support at:
