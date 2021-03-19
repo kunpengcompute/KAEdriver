@@ -4,15 +4,15 @@
 - [License](#license)
 - [Requirements](#requirements)
 - [Installation Instructions](#installation-instructions)
-- [Contribution guidelines](#contribution-guidelines)
+- [Contribution Guidelines](#contribution-Guidelines)
 - [More Information](#more-information)
 - [Copyright](#copyright)
 
 ## Introduction
 
-It is the driver for the Kunpeng Acceleration Engine,  which is to build performance competitiveness of common software libraries on the Kunpeng platform.
+Kunpeng Acceleration Engine (KAE) driver is used to build performance competitiveness of common software libraries on the Kunpeng platform.
 
-KAE driver is a new technology within Hisilicon Kunpeng 920 processors，provides a hardware-enabled foundation for security, authentication, and compression. It significantly increases the performance across cloud, networking, big data, and storage applications and  platforms.  For more information,  please see the following location at:
+KAE driver is a new technology within Hisilicon Kunpeng 920 processors. It provides a hardware-enabled foundation for security, authentication, and compression. It significantly increases the performance across cloud, networking, big data, and storage applications and  platforms.  For more information,  visit:
 
 <https://github.com/kunpengcompute/KAE>
 
@@ -60,7 +60,7 @@ modprobe hisi_zip
 modprobe hisi_rde
 ```
 
-Check the accelerator driver has been loaded successfully by running the `lsmod` command. 
+Check whether the accelerator driver has been loaded successfully by running the `lsmod` command. 
 
 `uacce.ko, hisi_qm.ko, sgl.ko, hisi_sec2.ko, hisi_hpre.ko, hisi_zip.ko` should be in the list. 
 
@@ -73,22 +73,22 @@ sh autogen.sh
 make 
 make install
 ```
-Check the accelerator driver has been loaded successfully by running the `ls -al /usr/local/lib` command. `libwd.so` should be in the list. 
+Check whether the accelerator driver has been loaded successfully by running the `ls -al /usr/local/lib` command. `libwd.so` should be in the list. 
 
-for more install guid and user guid, get information at:
+For more information about the installation guide and the user guide, visit:
 <https://www.huaweicloud.com/kunpeng/software/accelerator.html>
 
-## Contribution guidelines
+## Contribution Guidelines
 
 If you want to contribute to KAE driver, please use GitHub [issues](https://github.com/kunpengcompute/KAEdriver/issues/new) for tracking requests and bugs.
 
 ## Vulnerability Management
 Please refer to https://github.com/kunpengcompute/Kunpeng#security
 
-## Quality requirements
+## Quality Requirements
 Please refer to [Secure Coding Specifications](https://github.com/kunpengcompute/Kunpeng/blob/master/security/SecureCoding.md).
 
-## Secure design
+## Secure Design
 Please refer to [Secure Design](https://github.com/kunpengcompute/Kunpeng/blob/master/security/SecureDesign.md).
 
 ## More Information
