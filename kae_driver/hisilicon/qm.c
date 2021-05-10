@@ -4250,4 +4250,4 @@ EXPORT_SYMBOL_GPL(hisi_qm_reset_done);
 MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("Zhou Wang <wangzhou1@hisilicon.com>");
 MODULE_DESCRIPTION("HiSilicon Accelerator queue manager driver");
-MODULE_VERSION("1.3.10");
+MODULE_VERSION("1.3.11");
