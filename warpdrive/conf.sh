@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #to build hpre
-# git clone https://github.com/openssl/openssl.git
+# git clone openssl # get openssl from github, or get from else where
 # cd openssl
 # ./Configure linux-aarch64 --cross-compile-prefix=aarch64-linux-gnu-
 # add the following configure to this project (assume it is in paralle dir):

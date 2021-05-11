@@ -8,7 +8,7 @@ Currently we have just tested it with OpenSSL source code. To use HPRE, please
 compile openssl first. Here is an example to cross compile for aarch64 on
 linux_x86_64::
         
-        git clone https://github.com/openssl/openssl.git # or get from elsewhere
+        git clone openssl # get openssl from github, or get from else where
         cd $openssl
         ./Configure linux-aarch64 --cross-compile-prefix=aarch64-linux-gnu-
         cd $warpdrive
